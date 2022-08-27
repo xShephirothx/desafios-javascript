@@ -29,7 +29,7 @@
 // Declaração das variáveis
 //#####################################################
 
-let numeroRomano = "XXXIX" // <== Digite o número aqui
+let numeroRomano = "" // <== Digite o número aqui
 let sequencial = 0 // variável usada para validar se há mais do que 4 algarísmos iguais repetidos
 let decimal = 0
 
@@ -37,7 +37,7 @@ let decimal = 0
 // Escopo inicial
 //#####################################################
 
-conversorRomanoDecimal(numeroRomano)
+conversorRomanoDecimal(numeroRomano.toUpperCase())
 
 function conversorRomanoDecimal (numeroRomano){
     // Esse for serve para validar o algarismo romano, que permite no máximo 3 algarismos repetidos
