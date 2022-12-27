@@ -29,7 +29,7 @@
 // Declaração das variáveis
 //#####################################################
 
-let numeroRomano = "" // <== Digite o número aqui
+let numeroRomano = "DCCXXV" // <== Digite o número aqui
 let sequencial = 0 // variável usada para validar se há mais do que 4 algarísmos iguais repetidos
 let decimal = 0
 
